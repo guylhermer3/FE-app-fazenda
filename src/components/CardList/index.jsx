@@ -14,7 +14,17 @@ export default function CardList() {
                 imagem="/galinha.png"
                 titulo="Galinha"
                 texto="Lorem ipsum"
-                produto="galinha" />   
+                produto="galinha" /> 
+            <Card
+                imagem="/vaca.png"
+                titulo="Vaca"
+                texto="Lorem ipsum"
+                produto="vaca" />
+            <Card
+                imagem="/.png"
+                titulo=""
+                texto="Lorem ipsum"
+                produto="" />   
         </div>
     )
 }

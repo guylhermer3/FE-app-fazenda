@@ -1,12 +1,12 @@
 import styles from "./styles.module.css";
 import Link from "next/link";
 
-export default function Card({image, titulo, texto, produto }) {
+export default function Card({ imagem, titulo, texto, produto }) {
 
     return(
         <section className={styles.card}>
             <img 
-                src={image} 
+                src={imagem} 
                 alt={`Imagem de ${titulo}`} 
                 className={styles.image} />
             <h2 className={styles.titulo}>{titulo}</h2>
