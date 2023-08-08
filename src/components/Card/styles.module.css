@@ -1,0 +1,35 @@
+.card {
+    border-radius: 20px;
+    border: 1px var(--cor-primaria) solid;
+    max-width: 387px;
+    margin:  5px;
+}
+
+.image {
+    border-radius: 20px 20px 0 0;
+    max-width: 385px;
+
+}
+
+.titulo {
+    text-align: center;
+}
+
+.texto {
+    line-height: 1.5;
+}
+
+.botao {
+    background-color: var(--cor-primaria);
+    color: #f1f1f1;
+    padding:  10px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0 0 19px 19px;
+}
+
+.botao:hover {
+    background-color: 
+    var(--cor-primaria-dark);
+}
