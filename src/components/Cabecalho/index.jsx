@@ -1,14 +1,13 @@
-import styles from "./styles.module.css"
+import styles from "./styles.module.css";
 
-export default function Cabecalho(){
+export default function Cabecalho() {
 
     return(
         <header>
-
-            <h1 className={styles.titulo}>App de transporte</h1>
-            <img src="/milharal.png"
-                 alt="Um milharal" />
-        
+                <div className={styles.container}>
+                <img className={styles.imagem} src="/milharal.png" alt="Um milharal" />
+                <h1 className={styles.titulo}>Fazenda Orgânica</h1>
+                </div>
         </header>
-    )
+    );
 }
