@@ -6,25 +6,40 @@ export default function CardList() {
     return(
         <div className={styles.cardList}>
             <Card
-                imagem="/tomate.png"
-                titulo="Tomate"
+                imagem="/uva.png"
+                titulo="Uva"
                 texto="Lorem ipsum"
-                produto="tomate" />
-            <Card
-                imagem="/galinha.png"
-                titulo="Galinha"
-                texto="Lorem ipsum"
-                produto="galinha" /> 
+                produto="uva" />
             <Card
                 imagem="/vaca.png"
                 titulo="Vaca"
                 texto="Lorem ipsum"
                 produto="vaca" />
             <Card
-                imagem="/.png"
-                titulo=""
+                imagem="/laranja.png"
+                titulo="Laranja"
                 texto="Lorem ipsum"
-                produto="" />   
+                produto="laranja" />
+            <Card
+                imagem="/ovelha.png"
+                titulo="Ovelha"
+                texto="Lorem ipsum"
+                produto="ovelha" />
+            <Card
+                imagem="/galinha.png"
+                titulo="Galinha"
+                texto="Lorem ipsum"
+                produto="galinha" />
+            <Card
+                imagem="/tomate.png"
+                titulo="Tomate"
+                texto="Lorem ipsum"
+                produto="tomate" />                     
+            <Card
+                imagem="/hortifruti.png"
+                titulo="Hortifruti"
+                texto="Lorem ipsum"
+                produto="hortifruti" />                              
         </div>
     )
 }
